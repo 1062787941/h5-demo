@@ -1,0 +1,249 @@
+			body,div{
+				margin: 0;
+				padding: 0;
+			}
+			ul li{
+				margin: 0;
+				padding: 0;
+			}
+			h4{
+				margin: 0;
+				padding: 0;
+			}
+			.demo_head{
+				width: auto;
+				height: 30px;
+				border: 1px solid black;
+				background: cadetblue;
+			}
+			.demo_nav{
+				width: auto;
+				height: 90px;
+				border: 1px solid black;
+				background: springgreen;
+			}
+			.demo_search{
+				width: auto;
+				height: 90px;
+			}
+			.demo_main{
+				width: 75%;
+				height: 2145px;
+				float: left;
+			}
+			.demo_side{
+				width: 25%;
+				height: 2145px;
+				float: left;
+				background: red;
+			}
+			.demo_footer{
+				width: 100%;
+				height: 80px;
+				float: left;
+				border: 1px solid black;
+				background: black;
+			}
+			
+			.main_all{
+				width: 350px;
+			}
+			.main_m1_left,.main_m1_right{
+				float: left;
+			}
+			
+			.main_m3_left,.main_m3_right{
+				height: 500px;
+				float: left;
+				border: ;
+				/*background: red;*/
+			}
+			.main_m4_left,.main_m4_right{
+				height: 330px;
+				float: left;
+				/*background: green;*/
+			}
+			.main_m6_left,.main_m6_right{
+				height: 300px;
+				float: left;
+				/*background: green;*/
+			}
+			.main_m7_left,.main_m7_right{
+				height: 250px;
+				float: left;
+				background: green;
+			}
+			
+			.main_m1_left{
+				width: 350px;
+				height: 430px;
+				border: 1px solid rgb(238,240,240);	
+				border-radius: 10px;
+			}
+			
+			.main_m1_right{
+				width: 350px;
+				height: 430px;
+				border-left: 1px solid rgb(238,240,240);	
+				border-right: 1px solid rgb(238,240,240);
+				border-bottom: 1px solid rgb(238,240,240);	
+				position: absolute;
+				left: 380px;
+				top:215px ;
+				border-radius: 20px;
+			}
+			.main_m2,.main_m5{
+				width: 710px;
+				height: 90px;
+				float: left;
+				border: 1px solid rgb(238,240,240);	
+				background-image: url(../../img/main/yue/yy9.png);
+				border-radius: 10px;
+				background-repeat: no-repeat;	
+			}
+			
+			.main_m1_left span{
+				color: red;
+				position: absolute;
+				top: 230px;
+				left: 25px;
+			
+			}
+			.div{
+				width: 320px;
+				height: 300px;
+				background-image: url(../../img/main/yue/yy1.png);
+			}
+			
+			.main_m1_left_div1{
+				width: 80px;
+				height: 80px;
+			 	top: 225px;
+				left: 110px;
+				position: absolute;
+				background-image: url(../../img/main/yue/yy2.png);
+				background-repeat: no-repeat;	
+			}
+			.main_m1_left_div2{
+				width: 320px;
+				height: 280px;
+				background-image: url(../../img/main/yue/yy1.png);
+				background-repeat: no-repeat;
+				position: absolute;
+				top: 260px;
+				left: 25px;
+			}
+			.main_m1_left_div3{
+				width: 320px;
+				height: 90px;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 550px;
+				left: 25px;
+				background-image: url(../../img/main/yue/yy3.png);
+				background-repeat: no-repeat;
+				text-align: center;
+				line-height: 20px;
+			}
+			
+			.main_m1_left_div4{
+				position: relative;
+				left: 55px;
+			}
+			
+			 .main_m1_left_div3 li{
+				width: 300px;
+				height: 20px;
+				text-indent: -90px;
+			}
+			
+			.main_m1_right_div5{
+				width: 173px;
+				height: 35px;
+				border: 1px solid rgb(238,240,240);
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				background: rgb(238,240,240);
+			}
+			.main_m1_left_div6{
+				width: 173px;
+				height: 35px;
+				border: 1px solid rgb(238,240,240);
+				position: absolute;
+				left: 176px;
+				top: 0px;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				background: rgb(238,240,240);
+			}
+			.main_m1_left_div7{
+				width: 320px;
+				height: 110px;
+				/*border:1px solid black;*/
+				position: absolute;
+				top: 45px;
+				left: 15px;
+				background-image: url(../../img/main/yue/yy4.png);
+				background-repeat: no-repeat;
+				text-indent: 120px;
+			}
+			.main_m1_left_div7 p,.main_m1_left_div8 p,.div9 p{
+				line-height: 5px;
+			}
+			.main_m1_left_div7 h4,.main_m1_left_div8 h4,.div9 h4{
+				color: red;
+			}
+			.main_m1_left_div8{
+				width: 320px;
+				height: 110px;
+				/*border:1px solid black;*/
+				position: absolute;
+				top: 170px;
+				left: 15px;	
+				background-image:url(../../img/main/yue/yy5.png);
+				background-repeat: no-repeat;
+				text-indent: 120px;
+			}
+			.div9{
+				width: 320px;
+				height: 110px;
+				/*border:1px solid black;*/
+				position: absolute;
+				top: 290px;
+				left: 15px;	
+				background-image:url(../../img/main/yue/yy6.png);
+				background-repeat: no-repeat;
+				text-indent: 120px;
+			}
+			.div10{
+				width: 20px;
+				height: 20px;
+				/*border: 1px solid black;*/
+				position: absolute;
+				left: 310px;
+				top: 390px;
+				background-image: url(../../img/main/yue/yy7.png);
+				background-repeat: no-repeat;
+				
+			}
+			.main_m1_right_div5:hover,.main_m1_left_div6:hover{
+				background: white;
+				border-bottom: 0px;
+				color: red;
+			}
+			.main_m1_right_div5 h4{
+				color: cadetblue;
+				line-height: 35px;
+				text-align: center;
+			}
+			.main_m1_right_div5 h4:hover{
+				color: red;
+			}
+			.main_m1_left_div6 h4:hover{
+				color: red;
+			}
+			.main_m1_left_div6 h4{
+				color: cadetblue;
+				line-height: 35px;
+				text-align: center;
+			}
