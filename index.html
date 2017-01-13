@@ -4,10 +4,14 @@
 		<meta charset="utf-8" />
 		<title></title>
 		<style type="text/css">
-			.body,.div{
+			a{
+				text-decoration: none;
+			}
+			body,div,ul,li{
 				margin: 0;
 				padding: 0;
 			}
+			
 			.demo_head{
 				width: auto;
 				height: 30px;
@@ -29,9 +33,9 @@
 			.demo_main{
 				width: 75%;
 				height: 2145px;
-				/*border: 1px solid black;*/
+				/*border: 1px solid blueviolet;*/
 				float: left;
-				background: yellow;
+				/*background: yellow;*/
 			}
 			.demo_side{
 				width: 25%;
@@ -48,13 +52,388 @@
 				background: black;
 			}
 			
+			.main_all{
+				width: 350px;
+				border: 1px solid gray;
+			}
+			.main_m1_left,.main_m1_right{
+				height: 425px;
+				background: gray;
+				float: left;
+			}
+			.main_m2,.main_m5{
+				width: 715px;
+				height: 100px;
+				float: left;
+				background: black;
+			}
+			.main_m6{
+				position: relative;
+				/*top: 20px;*/
+			}
+			.main_m3_left,.main_m3_right{
+				height: 500px;
+				float: left;
+			}
+			.main_m4_left,.main_m4_right{
+				height: 330px;
+				float: left;
+			}
+			.main_m6_left,.main_m6_right{
+				height: 290px;
+				float: left;
+			}
+			.main_m7_left,.main_m7_right{
+				height: 250px;
+				float: left;
+			}
+		
+				
+			#font_color_red{
+				color: red;
+			}
+			#change_font_black{
+				color: black;
+			}
+			#print_xuLine{
+				width: 310px;
+				height: 1px;
+				position: relative;
+				left: 5px;
+				border-bottom: 1px dotted gray;
+			}
+			#font_wider_boider{
+				font-weight: bold;
+			}
+			#change_font_size{
+				font-size: 14px;
+			}
+			.main_m6_left div span{
+				font-size: 15px;
+				position: relative;
+				left: 15px;
+			}
+			.main_m6_left div a {
+				align-content: center;
+				font-size: 12px;
+			}
+			.create_border{
+				width: 325px;
+				height: 35px;
+				position: relative;
+				left: 15px;
+			}
+			.create_border div a{
+				width: 100px;
+				height: 25px;
+				border: 1px solid darkgray;
+				position: relative;
+				top: 9px;
+				left: 5px;
+				float: left;
+				color: black;
+				text-align: center;
+				line-height: 25px;
+			}
+			.create_border div a:hover{
+				font-weight: bold;
+				font-size: 14px;
+				border-bottom: none;
+			}
+			.m6_left_changeTitle{
+				width: 310px;
+				border-bottom: 1px dotted gray;
+				height: 30px;
+				line-height: 30px;
+				position: relative;
+				left: 20px;
+				text-indent: 120px;
+				color: gray;
+			}
+			.main_m6_left div ul li{
+				color: red;
+			}
+			.m6_left_changeUlPosition{
+				position: relative;
+				left: 17px;
+			}
+			.m6_left_p4{
+				width: 320px;
+				height: 150px;
+				position: relative;
+				left: 15px;
+			}
+			.m6_left_p4 li{
+				position: relative;
+				left: 25px;
+			}
+			.create_border_content{
+				width: 300px;
+				height: 26px;
+				line-height: 28px;
+				text-indent: -35px;
+			}
+			
+			.m6_left_p5{
+				width: 320px;
+				height: 50px;
+				position: relative;
+				left: 5px;
+				top: -12px;
+				font-size: 17px;
+				text-align: center;
+			}
+			.main_m6_right div span{
+				font-size: 14px;
+				position: relative;
+				left: 15px;
+			}
+			.main_m6_right div a {
+				align-content: center;
+				font-size: 12px;
+			}
+			.m6_right_p2{
+				width: 350px;
+				height: 250px;
+			}
+			.m6_right_p2_div1{
+				height: 80px;
+				position: relative;
+				left: 10px;
+				top: 10px;
+			}
+			.m6_right_p2_div1 ul li{
+				width: 80px;
+				height: 80px;
+				float: left;
+				list-style: none;
+			}
+			.m6_right_p2_div1 ul .add_bg_img{
+				background-image: url(img/main/zqk/hot_cook_1.png);
+				background-repeat: no-repeat;
+			}
+			.m6_right_p2_div1 ul .add_bg_img a{
+				color: white;
+				line-height: 25px;
+			}
+			.m7_right_div1 {
+				widows: 300px;
+				height: 30px;
+				font-size: 13px;
+				border: 1px solid red;
+				align-content: center;
+				
+				
+			}
+			.m7_right_div1 span{
+				position: relative;
+				top: 5px;
+				left: 10px;
+			}
+			.m7_right_div2 {
+				height: 200px;
+				border: 1px solid green;
+			}
+			.m7_right_div2 ul li{
+				list-style: none;
+				height: 45px;
+				border: 1px solid yellow;
+			}
+			.m7_right_div2_left{
+				width: 100px;
+				height: 40px;
+				border: 1px solid greenyellow;
+				position: relative;
+				top: 5px;
+				left: 20px;
+			} 
+			.m7_right_div2_right{
+				width: 220px;
+				height: 40px;
+				border: 1px solid red;
+				position: relative;
+				left: 120px;
+				top: -35px;
+			}
+			
 		</style>
 	</head>
 	<body>
 		<div class="demo_head"></div>
 		<div class="demo_nav"></div>
 		<div class="demo_search"></div>
-		<div class="demo_main"></div>
+		<div class="demo_main">
+			<div class="main_m1">
+				<div class="main_m1_left main_all">left</div>
+				<div class="main_m1_right main_all">right</div>
+			</div>
+			<div class="main_m2"></div>
+			<div class="main_m3">
+				<div class="main_m3_left main_all"></div>
+				<div class="main_m3_right main_all"></div>
+			</div>
+			<div class="main_m4">
+				<div class="main_m4_left main_all"></div>
+				<div class="main_m4_right main_all"></div>
+			</div>
+			<div class="main_m5"></div>
+			<div class="main_m6">
+				<div class="main_m6_left main_all">
+					<div>
+						<span id="font_color_red">LIFESTYLE ADVICE</span>
+						<span id="font_wider_boider">知道分子&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<a href="" id="change_font_black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MORE</a>
+						<img src="img/main/zqk/move.png" align="center"/>
+					</div>
+					<div class="create_border">
+						<div><a href="">有人在问</a></div>
+						<div><a href="">有人知道</a></div>
+						<div><a href="">热门问题</a></div>
+					</div>
+					<div class="m6_left_changeTitle">
+						<span>标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题 
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							状态
+						</span>
+					</div>
+					<div class="m6_left_p4">
+						<ul id="" class="">
+							<li class="create_border_content">
+								<span style="">
+									<span id="change_font_black">[</span><span>美食</span><span id="change_font_black">]</span>
+									<span id="change_font_black">推荐几款性价比高的冰箱</span>
+									<span>
+										<img src="img/main/zqk/flag.png" style="position: relative;left: 45px;"/>
+									</span>
+								</span>
+							</li>
+							<div id="print_xuLine"></div>
+							
+							<li class="create_border_content">
+								<span style="">
+									<span id="change_font_black">[</span><span>美食</span><span id="change_font_black">]</span>
+									<span id="change_font_black">推荐几款性价比高的冰箱</span>
+									<span>
+										<img src="img/main/zqk/flag.png" style="position: relative;left: 45px;"/>
+									</span>
+								</span>
+							</li>
+							<div id="print_xuLine"></div>
+							<li class="create_border create_border_content">
+								<span style="">
+									<span id="change_font_black">[</span><span>美食</span><span id="change_font_black">]</span>
+									<span id="change_font_black">推荐几款性价比高的冰箱</span>
+									<span>
+										<img src="img/main/zqk/flag.png" style="position: relative;left: 45px;"/>
+									</span>
+								</span>
+							</li>
+							<div id="print_xuLine"></div>
+							<li class="create_border create_border_content">
+								<span style="">
+									<span id="change_font_black">[</span><span>美食</span><span id="change_font_black">]</span>
+									<span id="change_font_black">推荐几款性价比高的冰箱</span>
+									<span>
+										<img src="img/main/zqk/flag.png" style="position: relative;left: 45px;"/>
+									</span>
+								</span>
+							</li>
+							<div id="print_xuLine"></div>
+							<li class="create_border create_border_content">
+								<span style="">
+									<span id="change_font_black">[</span><span>美食</span><span id="change_font_black">]</span>
+									<span id="change_font_black">推荐几款性价比高的冰箱</span>
+									<span>
+										<img src="img/main/zqk/flag.png" style="position: relative;left: 45px;"/>
+									</span>
+								</span>
+							</li>
+							<div id="print_xuLine"></div>
+						</ul>
+					</div>
+					<div class="m6_left_p5">
+						<p>
+							<span><strong>搜搜谁知道：&nbsp;&nbsp;&nbsp;</strong></span>
+							<input type="text" placeholder="请输入关键字"/>
+							<a href="">
+								<img src="img/main/zqk/go.png" align="center"/>
+							</a>
+						</p>
+					</div>
+				</div>
+				
+				
+				<div class="main_m6_right main_all">
+					<div>
+						<span id="font_color_red">HOT&nbsp;&nbsp;</span>
+						<span id="font_wider_boider">红人烧客&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<a href="" id="change_font_black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MORE</a>
+						<img src="img/main/zqk/move.png" align="center"/>
+					</div>
+					<div class="m6_right_p2">
+						<div class="m6_right_p2_div1">
+							<ul>
+								<li  class="add_bg_img" >
+									<a href="">
+										<span >HOT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+										<span >潮流服饰&nbsp;&nbsp;</span>
+										<span>任我行</span>
+									</a>
+								</li>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+								<li style="width: 150px;"><a href=""><img src="img/main/zqk/hot_cook_3.png"/></a></li>
+							</ul>
+						</div>
+						
+						<div class="m6_right_p2_div1">
+							<ul>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+							</ul>
+							<ul>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+								<li><a href=""><img src="img/main/zqk/hot_cook_10.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="main_m7">
+				<div class="main_m7_left main_all"></div>
+				
+				<div class="main_m7_right main_all">
+					<div class="m7_right_div1">
+						<span id="font_color_red">100DUIN THE WEDIA</span>
+						<span id="font_wider_boider">媒体声音&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<span>
+							<a href="" id="change_font_black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MORE</a>
+							<img src="img/main/zqk/move.png" align="center"/>
+						</span>
+					</div>
+					<div class="m7_right_div2">
+						<ul>
+							<li>
+								<div class="m7_right_div2_left">
+									<img src="img/main/zqk/buttom_1.png" align="center"/>
+								</div>
+								<div class="m7_right_div2_right">
+									<span>日本最大的财经杂志《钻石周刊》对100</span>
+								</div>
+							</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="demo_side"></div>
 		<div class="demo_footer"></div>
 	</body>
