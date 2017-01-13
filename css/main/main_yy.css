@@ -20,7 +20,6 @@
 				width: auto;
 				height: 90px;
 				border: 1px solid black;
-				background: springgreen;
 			}
 			.demo_search{
 				width: auto;
@@ -56,22 +55,18 @@
 				height: 500px;
 				float: left;
 				border: ;
-				/*background: red;*/
 			}
 			.main_m4_left,.main_m4_right{
 				height: 330px;
 				float: left;
-				/*background: green;*/
 			}
 			.main_m6_left,.main_m6_right{
 				height: 300px;
 				float: left;
-				/*background: green;*/
 			}
 			.main_m7_left,.main_m7_right{
 				height: 250px;
 				float: left;
-				background: green;
 			}
 			
 			.main_m1_left{
@@ -136,7 +131,6 @@
 			.main_m1_left_div3{
 				width: 320px;
 				height: 90px;
-				/*border: 1px solid red;*/
 				position: absolute;
 				top: 550px;
 				left: 25px;
@@ -179,7 +173,6 @@
 			.main_m1_left_div7{
 				width: 320px;
 				height: 110px;
-				/*border:1px solid black;*/
 				position: absolute;
 				top: 45px;
 				left: 15px;
@@ -207,7 +200,6 @@
 			.div9{
 				width: 320px;
 				height: 110px;
-				/*border:1px solid black;*/
 				position: absolute;
 				top: 290px;
 				left: 15px;	
@@ -218,7 +210,6 @@
 			.div10{
 				width: 20px;
 				height: 20px;
-				/*border: 1px solid black;*/
 				position: absolute;
 				left: 310px;
 				top: 390px;
